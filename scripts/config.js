@@ -59,7 +59,7 @@ export class ConfigApp extends FormApplication {
             top: (screen.availHeight - 489) / 4,
             left: (screen.availWidth - 516) / 4
         }
-        return mergeObject(super.defaultOptions, {
+        const selectedOptions={
             classes: ['form'],
             popOut: true,
             submitOnChange: true,
@@ -72,7 +72,13 @@ export class ConfigApp extends FormApplication {
             top: this.initialPosition.top,
             left: this.initialPosition.left,
             heigh: "auto",
-        });
+        }
+
+        if (isNewerVersion(game.version, "11")) {
+            return foundry.utils.mergeObject(super.defaultOptions, selectedOptions);
+        } else {
+            return mergeObject(super.defaultOptions, selectedOptions);
+        }
     }
 
     activateListeners(html) {
