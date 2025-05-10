@@ -1,4 +1,10 @@
 # Changelog
+## [0.0.10]
+[![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://github.com/xerosagas/smallweather/releases/download/0.0.10/module.json)](https://foundryvtt.com/packages/smallweather)  
+[![Downloads](https://img.shields.io/github/downloads/xerosagas/smallweather/0.0.10/module.zip?logo=github&color=238636&label=downloads)](https://github.com/xerosagas/smallweather/releases/0.0.10)
+
+- Improved compatibility with Foundry VTT v12
+- Fixed minor Smallweather bugs
 
 ## [0.0.9]
 [![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://github.com/LeafWulf/smallweather/releases/download/0.0.9/module.json)](https://foundryvtt.com/packages/smallweather)  
